@@ -1,0 +1,8 @@
+jax>=0.4.20
+jaxlib>=0.4.20
+numpy>=1.24
+scipy>=1.10
+
+# ANDES 驗證（可選）
+# andes>=2.0
+# matplotlib>=3.7
