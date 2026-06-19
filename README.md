@@ -112,6 +112,17 @@ python tests/test_engine_b_andes.py
 - [CSD-Grid-Dual-Engine](https://github.com/chihsingwu/CSD-Grid-Dual-Engine)
 - [ANDES](https://github.com/CURENT/andes)
 
+- <img width="1440" height="1040" alt="image" src="https://github.com/user-attachments/assets/de3ca1a1-a756-496d-9447-f06ecb15ab58" />
+
+{
+"@context": "https://schema.org",
+"@type": "ImageObject",
+"name": "FLSD-Net Low Frequency Power Ratio",
+"caption": "Differentiable spectral analysis using DCT-based low-frequency power ratio. The figure highlights energy concentration changes associated with system dynamics.",
+"contentUrl": "https://taiscience.org/images/flsd-net.png"
+}
+
+
 ---
 
 ## License
