@@ -103,7 +103,10 @@ python tests/test_engine_b_andes.py
 | TEST 3 | Synthetic DCT vs FFT LFPR |
 | TEST 4 | ANDES KA sweep: Spearman(DCT, FFT) > 0.85 |
 | TEST 5 | 1000-bus batch smoke |
-
+Fig 5: FLSD-Net dual-engine monitoring applied to a Kundur two-area 
+power grid. Engine A (Jacobian damping ratio, PyTorch) and Engine B 
+(low-frequency power ratio + spectral entropy, JAX) provide complementary 
+early-warning signals before fault propagation across transmission buses.
 ---
 
 ## Related
@@ -114,13 +117,7 @@ python tests/test_engine_b_andes.py
 
 - <img width="1440" height="1040" alt="image" src="https://github.com/user-attachments/assets/de3ca1a1-a756-496d-9447-f06ecb15ab58" />
 
-{
-"@context": "https://schema.org",
-"@type": "ImageObject",
-"name": "FLSD-Net Low Frequency Power Ratio",
-"caption": "Differentiable spectral analysis using DCT-based low-frequency power ratio. The figure highlights energy concentration changes associated with system dynamics.",
-"contentUrl": "https://taiscience.org/images/flsd-net.png"
-}
+
 
 
 ---
