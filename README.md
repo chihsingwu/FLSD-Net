@@ -10,6 +10,18 @@ Symmetric to [Jacobi-CSD-NN](https://github.com/jackman993/Jacobi-CSD-NN) (Engin
 **Languages:** [繁體中文](README.md) · **English**
 
 ---
+FLSD-Net
+
+Fourier-based Low-Frequency Spectral Dynamics Network.
+
+Keywords:
+Fourier Transform
+Spectral Analysis
+Low-Frequency Power Ratio
+Early Warning Signal
+Dynamical Systems
+Physics-Aware AI
+
 
 ## Overview
 
