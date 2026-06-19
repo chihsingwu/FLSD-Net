@@ -103,10 +103,7 @@ python tests/test_engine_b_andes.py
 | TEST 3 | Synthetic DCT vs FFT LFPR |
 | TEST 4 | ANDES KA sweep: Spearman(DCT, FFT) > 0.85 |
 | TEST 5 | 1000-bus batch smoke |
-Fig 5: FLSD-Net dual-engine monitoring applied to a Kundur two-area 
-power grid. Engine A (Jacobian damping ratio, PyTorch) and Engine B 
-(low-frequency power ratio + spectral entropy, JAX) provide complementary 
-early-warning signals before fault propagation across transmission buses.
+
 ---
 
 ## Related
@@ -116,7 +113,7 @@ early-warning signals before fault propagation across transmission buses.
 - [ANDES](https://github.com/CURENT/andes)
 
 - <img width="1440" height="1040" alt="image" src="https://github.com/user-attachments/assets/de3ca1a1-a756-496d-9447-f06ecb15ab58" />
-Fig 5: FLSD-Net dual-engine monitoring applied to a Kundur two-area 
+Fig 5: FLSD-Net engine and Jacobian-CSD-NN. This System monitoring applied to a Kundur two-area 
 power grid. Engine A (Jacobian damping ratio, PyTorch) and Engine B 
 (low-frequency power ratio + spectral entropy, JAX) provide complementary 
 early-warning signals before fault propagation across transmission buses.
